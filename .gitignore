@@ -1,0 +1,15 @@
+# --- Environments ---
+.idea/
+csdev/
+
+# --- PyInstaller output folders ---
+build/
+dist/
+
+# --- Python cache files ---
+__pycache__/
+*.pyc
+*.pyo
+
+# --- Editor settings (Optional but recommended) ---
+.vscode/
