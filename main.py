@@ -124,6 +124,7 @@ def download_video():
     ydl_opts = {
         'outtmpl': f'{save_path}/{custom_name if custom_name else "%(title)s"}.%(ext)s',
         'progress_hooks': [progress_hook],
+        'ffmpeg_location': resource_path('.'),
     }
 
     # --- FIX 2: ตั้งค่าการโหลดตาม Format ที่ผู้ใช้เลือก ---
