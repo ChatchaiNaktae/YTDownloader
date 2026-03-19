@@ -13,3 +13,7 @@ __pycache__/
 
 # --- Editor settings (Optional but recommended) ---
 .vscode/
+
+# --- Binaries & Executables ---
+ffmpeg.exe
+ffprobe.exe
