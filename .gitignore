@@ -1,19 +1,33 @@
-# --- Environments ---
-.idea/
+# Byte-compiled / cache files
+__pycache__/
+*.py[codz]
+*$py.class
+
+# Virtual Environments
+.venv/
+venv/
+env/
 csdev/
 
-# --- PyInstaller output folders ---
+# Environment variables & secrets
+.env
+.envrc
+
+# PyInstaller outputs & build files
 build/
 dist/
+*.manifest
+*.spec
 
-# --- Python cache files ---
-__pycache__/
-*.pyc
-*.pyo
-
-# --- Editor settings (Optional but recommended) ---
+# IDE and Editor configurations
+.idea/
 .vscode/
+tempCodeRunnerFile.py
 
-# --- Binaries & Executables ---
+# Binaries & Executables
 ffmpeg.exe
 ffprobe.exe
+
+# Log & SQLite database files (if any)
+*.log
+*.sqlite3
